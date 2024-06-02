@@ -1,7 +1,19 @@
 name: kanza_di
 description: "Simple Dependency Injector based on InheritedWidget"
 version: 1.0.0
-homepage:
+homepage: https://github.com/Kanza-OSS/kanza-di
+repository: https://github.com/Kanza-OSS/kanza-di
+issue_tracker: https://github.com/Kanza-OSS/kanza-di/issues
+documentation: https://github.com/Kanza-OSS/kanza-di
+topics: [dependency injection, inherited widget]
+# This package supports all platforms listed below.
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
 
 environment:
   sdk: '>=3.4.1 <4.0.0'
