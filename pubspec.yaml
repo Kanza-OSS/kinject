@@ -1,10 +1,10 @@
 name: kinject
-description: "Simple Dependency Injector based on InheritedWidget"
-version: 1.0.0
-homepage: https://github.com/Kanza-OSS/kanza-di
-repository: https://github.com/Kanza-OSS/kanza-di
-issue_tracker: https://github.com/Kanza-OSS/kanza-di/issues
-documentation: https://github.com/Kanza-OSS/kanza-di
+description: "Simple Dependency Injector based on InheritedWidget to provide singleton and factory instances easily"
+version: 1.0.1
+homepage: https://github.com/Kanza-OSS/kinject
+repository: https://github.com/Kanza-OSS/kinject
+issue_tracker: https://github.com/Kanza-OSS/kinject/issues
+documentation: https://github.com/Kanza-OSS/kinject
 topics: [dependency-injection, inherited-widget]
 # This package supports all platforms listed below.
 platforms:
