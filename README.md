@@ -1,4 +1,4 @@
-# Kanza DI (Dependency Injection)
+# Kinject (Dependency Injection)
 
 It is a simple wrapper on **Inherited Widget**. 
 
@@ -70,7 +70,7 @@ class LoginPage extends StatelessWidget {
 
 ## Singleton and Factory initialization
 
-**Kanza DI** gives flexibility to a developer to adjust instance as Singleton or Factory.
+**Kinject** gives flexibility to a developer to adjust instance as Singleton or Factory.
 If you want to initialize Singleton class for all app, you can provide instance of this class above the 
 **MaterialApp**. Or, if you want to initialize instance as factory, you can adjust it with the help of
 subtrees based providing.

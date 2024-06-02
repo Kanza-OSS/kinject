@@ -1,6 +1,6 @@
 ```dart
 import 'package:flutter/material.dart';
-import 'package:kanza_di/kanza_di.dart';
+import 'package:kanza_di/kinject.dart';
 import 'package:kanza_di_example/auth_bloc.dart';
 import 'package:kanza_di_example/auth_data_source.dart';
 import 'package:kanza_di_example/auth_repository.dart';

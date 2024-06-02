@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kanza_di/kanza_di.dart';
+import 'package:kanza_di/kinject.dart';
 import 'package:kanza_di_example/app_kinject_observer.dart';
 import 'package:kanza_di_example/login_page.dart';
 

@@ -1,4 +1,4 @@
-name: kanza_di
+name: kinject
 description: "Simple Dependency Injector based on InheritedWidget"
 version: 1.0.0
 homepage: https://github.com/Kanza-OSS/kanza-di

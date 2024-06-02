@@ -1,4 +1,4 @@
-library kanza_di;
+library kinject;
 
 export 'src/disposable.dart';
 export 'src/kinject.dart';
