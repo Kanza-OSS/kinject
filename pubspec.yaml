@@ -1,6 +1,6 @@
 name: kinject
 description: "Simple Dependency Injector based on InheritedWidget to provide singleton and factory instances easily"
-version: 1.0.1
+version: 1.0.3
 homepage: https://github.com/Kanza-OSS/kinject
 repository: https://github.com/Kanza-OSS/kinject
 issue_tracker: https://github.com/Kanza-OSS/kinject/issues
