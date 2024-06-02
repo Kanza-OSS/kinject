@@ -5,7 +5,7 @@ homepage: https://github.com/Kanza-OSS/kanza-di
 repository: https://github.com/Kanza-OSS/kanza-di
 issue_tracker: https://github.com/Kanza-OSS/kanza-di/issues
 documentation: https://github.com/Kanza-OSS/kanza-di
-topics: [dependency injection, inherited widget]
+topics: [dependency-injection, inherited-widget]
 # This package supports all platforms listed below.
 platforms:
   android:
