@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:kanza_di/kinject.dart';
+import 'package:kinject/kinject.dart';
 
 final class AppKinjectObserver implements KinjectObserver {
   @override

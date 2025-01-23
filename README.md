@@ -75,6 +75,39 @@ If you want to initialize Singleton class for all app, you can provide instance 
 **MaterialApp**. Or, if you want to initialize instance as factory, you can adjust it with the help of
 subtrees based providing.
 
+## KinjectModule for modular architecture
+
+**KinjectModule** is a class that can be used to provide instances for a specific module. 
+It is useful for modular architecture, where you can provide instances for a specific module.
+
+```dart
+class LoginModule extends KinjectModule {
+  const LoginModule({super.key});
+
+  @override
+  List<ProxyKinject> binds(BuildContext context) {
+    return [
+      ProxyKinject<AuthDataSource>((_) => AuthDataSourceImpl()),
+      ProxyKinject<AuthRepository>(
+            (context) => AuthRepositoryImpl(
+          context.resolve<AuthDataSource>(),
+        ),
+      ),
+      ProxyKinject<LoginBloc>(
+            (context) => LoginBloc(
+          context.resolve<AuthRepository>(),
+        ),
+      ),
+    ];
+  }
+
+  @override
+  Widget child(BuildContext context) {
+    return const LoginPageV2();
+  }
+}
+```
+
 ### KinjectObserver
 
 You can enable **KinjectObserver** for your app to track initialize and dispose events.
