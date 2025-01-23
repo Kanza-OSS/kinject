@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:kanza_di/kinject.dart';
-import 'package:kanza_di_example/app_kinject_observer.dart';
-import 'package:kanza_di_example/login_page.dart';
+import 'package:kinject/kinject.dart';
+
+import 'app_kinject_observer.dart';
+import 'onboarding_page.dart';
 
 void main() {
   Kinject.observer = AppKinjectObserver();
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LoginPage(),
+      home: const OnboardingPage(),
     );
   }
 }
